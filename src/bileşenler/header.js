@@ -40,7 +40,7 @@ const headerEkleyici = (secici) => {
   //
   // İPUCU: querySelector bir string alabilir (bknz: querySelector("#wrapper"))
   // fakat aynı zamanda bir değişken de alabilir (bknz: querySelector(secici))
-  const headerBilesen = Header(a, b, c);
+  const headerBilesen = Header("baslik", "tarih", "yazi");
   const eslesenDOM = document.querySelector(secici);
   eslesenDOM.appendChild(headerBilesen);
 };
